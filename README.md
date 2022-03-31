@@ -8,7 +8,7 @@ Visual Studio 2022
 环境
 
 SDK            
-https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/sdk-6.0.201-windows
+https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/sdk-6.0.201-windows-x64-installer
 
 Runtime        
 https://dotnet.microsoft.com/zh-cn/download/dotnet/thank-you/runtime-desktop-6.0.3-windows-x64-installer
