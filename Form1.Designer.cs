@@ -38,20 +38,20 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.linkLabel2 = new System.Windows.Forms.LinkLabel();
-            this.label6 = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
             this.label10 = new System.Windows.Forms.Label();
             this.linkLabel3 = new System.Windows.Forms.LinkLabel();
             this.linkLabel4 = new System.Windows.Forms.LinkLabel();
+            this.label6 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button1
             // 
             this.button1.Font = new System.Drawing.Font("Microsoft YaHei UI", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.button1.ForeColor = System.Drawing.Color.Red;
-            this.button1.Location = new System.Drawing.Point(280, 209);
+            this.button1.Location = new System.Drawing.Point(317, 204);
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(143, 52);
             this.button1.TabIndex = 0;
@@ -62,7 +62,7 @@
             // button2
             // 
             this.button2.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button2.Location = new System.Drawing.Point(280, 343);
+            this.button2.Location = new System.Drawing.Point(317, 343);
             this.button2.Name = "button2";
             this.button2.Size = new System.Drawing.Size(143, 52);
             this.button2.TabIndex = 1;
@@ -73,7 +73,7 @@
             // button3
             // 
             this.button3.Font = new System.Drawing.Font("Microsoft YaHei UI", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.button3.Location = new System.Drawing.Point(280, 277);
+            this.button3.Location = new System.Drawing.Point(317, 277);
             this.button3.Name = "button3";
             this.button3.Size = new System.Drawing.Size(143, 52);
             this.button3.TabIndex = 2;
@@ -129,7 +129,7 @@
             // 
             this.label4.AutoSize = true;
             this.label4.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label4.Location = new System.Drawing.Point(45, 399);
+            this.label4.Location = new System.Drawing.Point(309, 455);
             this.label4.Name = "label4";
             this.label4.Size = new System.Drawing.Size(114, 20);
             this.label4.TabIndex = 7;
@@ -155,21 +155,10 @@
             this.linkLabel2.Text = "作者博客";
             this.linkLabel2.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel2_LinkClicked);
             // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Font = new System.Drawing.Font("微软雅黑", 10.5F, ((System.Drawing.FontStyle)((System.Drawing.FontStyle.Bold | System.Drawing.FontStyle.Italic))), System.Drawing.GraphicsUnit.Point);
-            this.label6.Location = new System.Drawing.Point(45, 133);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(182, 133);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "此软件写于2022-3-26日，\r\n因为是一个用C#写的很简\r\n陋的小工具，所以没有做\r\n美化。\r\n\r\n本软件源代码已在Github\r\n开源。";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
-            // 
             // label7
             // 
             this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(538, 242);
+            this.label7.Location = new System.Drawing.Point(544, 79);
             this.label7.Name = "label7";
             this.label7.Size = new System.Drawing.Size(243, 153);
             this.label7.TabIndex = 11;
@@ -180,7 +169,7 @@
             // 
             this.label8.AutoSize = true;
             this.label8.ForeColor = System.Drawing.Color.Green;
-            this.label8.Location = new System.Drawing.Point(544, 40);
+            this.label8.Location = new System.Drawing.Point(45, 225);
             this.label8.Name = "label8";
             this.label8.Size = new System.Drawing.Size(212, 170);
             this.label8.TabIndex = 12;
@@ -191,17 +180,17 @@
             // 
             this.label9.AutoSize = true;
             this.label9.Font = new System.Drawing.Font("Microsoft YaHei UI", 10.5F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label9.Location = new System.Drawing.Point(267, 133);
+            this.label9.Location = new System.Drawing.Point(45, 139);
             this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(233, 57);
+            this.label9.Size = new System.Drawing.Size(415, 38);
             this.label9.TabIndex = 13;
-            this.label9.Text = "使用方法\r\n在还没有没控制前运行此软件。\r\n被控制时运行本软件请看已知问题→";
+            this.label9.Text = "使用方法\r\n在还没有没控制前运行此软件。被控制时运行本软件请看已知问题";
             // 
             // label10
             // 
             this.label10.AutoSize = true;
             this.label10.Font = new System.Drawing.Font("Microsoft YaHei UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label10.Location = new System.Drawing.Point(45, 326);
+            this.label10.Location = new System.Drawing.Point(545, 352);
             this.label10.Name = "label10";
             this.label10.Size = new System.Drawing.Size(200, 17);
             this.label10.TabIndex = 14;
@@ -210,7 +199,7 @@
             // linkLabel3
             // 
             this.linkLabel3.AutoSize = true;
-            this.linkLabel3.Location = new System.Drawing.Point(45, 277);
+            this.linkLabel3.Location = new System.Drawing.Point(545, 312);
             this.linkLabel3.Name = "linkLabel3";
             this.linkLabel3.Size = new System.Drawing.Size(56, 17);
             this.linkLabel3.TabIndex = 15;
@@ -221,7 +210,7 @@
             // linkLabel4
             // 
             this.linkLabel4.AutoSize = true;
-            this.linkLabel4.Location = new System.Drawing.Point(45, 354);
+            this.linkLabel4.Location = new System.Drawing.Point(545, 378);
             this.linkLabel4.Name = "linkLabel4";
             this.linkLabel4.Size = new System.Drawing.Size(56, 17);
             this.linkLabel4.TabIndex = 16;
@@ -229,18 +218,27 @@
             this.linkLabel4.Text = "留言地址";
             this.linkLabel4.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.linkLabel4_LinkClicked);
             // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(545, 277);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(142, 17);
+            this.label6.TabIndex = 17;
+            this.label6.Text = "本软件源代码已在Github";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 17F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(810, 484);
+            this.Controls.Add(this.label6);
             this.Controls.Add(this.linkLabel4);
             this.Controls.Add(this.linkLabel3);
             this.Controls.Add(this.label10);
             this.Controls.Add(this.label9);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
-            this.Controls.Add(this.label6);
             this.Controls.Add(this.linkLabel2);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -270,12 +268,12 @@
         private Label label4;
         private Label label5;
         private LinkLabel linkLabel2;
-        private Label label6;
         private Label label7;
         private Label label8;
         private Label label9;
         private Label label10;
         private LinkLabel linkLabel3;
         private LinkLabel linkLabel4;
+        private Label label6;
     }
 }

@@ -53,7 +53,7 @@ namespace gakataka
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("explorer.exe", "https://blog.biuioi.com//?35");
+            System.Diagnostics.Process.Start("explorer.exe", "https://biuioi.com//archives//35");
         }
 
         private void label3_Click(object sender, EventArgs e)
@@ -63,7 +63,7 @@ namespace gakataka
 
         private void linkLabel2_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            System.Diagnostics.Process.Start("explorer.exe", "https://blog.biuioi.com");
+            System.Diagnostics.Process.Start("explorer.exe", "https://biuioi.com");
         }
 
         private void label6_Click(object sender, EventArgs e)
