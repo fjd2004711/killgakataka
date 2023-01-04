@@ -20,7 +20,7 @@ namespace gakataka
             p.StandardInput.WriteLine("taskkill /im student.exe -t -f");//向CMD窗口发送输入命令
             p.StandardInput.AutoFlush = true;//自动刷新
 
-            MessageBox.Show("关闭完成！若重新被控制请点击注销按钮注销账户，重新登陆后再点击关闭控制。", "关闭提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
+            MessageBox.Show("关闭完成！若重新被控制请注销计算机，重新登陆后再点击关闭控制。", "关闭提示", MessageBoxButtons.OKCancel, MessageBoxIcon.Information);
         }
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
